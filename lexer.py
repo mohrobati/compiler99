@@ -29,7 +29,7 @@ class Lexer:
     t_PRINT = r'print'
 
     def t_INTEGER(self, t):
-        r'[-|+]?(\d+)'
+        r'(\d+)'
         return t
 
     def t_newline(self, t):
